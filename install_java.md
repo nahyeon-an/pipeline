@@ -1,8 +1,10 @@
 # Java 설치
 
+<br>
+
 ### EC2 root 계정 활성화
 
-*ec2-user로 접속*
+*ec2-user로 접속*  
 
 1. root 계정의 password 변경  
 ```
@@ -27,6 +29,7 @@ sudo cp /home/ec2-user/.ssh/authorized_keys /root/.ssh
 sudo systemctl restart sshd
 ```
 
+<br>
 
 ### java 설치
 
